@@ -1,0 +1,112 @@
+{
+  "schema": 2,
+  "updated_at": "2026-10-20T17:45:22.2367365-07:00",
+  "overall": {
+    "input": 659721816,
+    "output": 13745666,
+    "cache_read": 493073898,
+    "cache_write": 0,
+    "cost_usd": 74.43430030400005,
+    "saved_usd": 80.05818625600008,
+    "cache_capable": true,
+    "cache_breaks": 188
+  },
+  "per_agent": {
+    "arbiter": {
+      "input": 25549,
+      "output": 3315,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cost_usd": 0.07231,
+      "saved_usd": 0,
+      "cache_capable": true
+    },
+    "architect": {
+      "input": 11000998,
+      "output": 399944,
+      "cache_read": 5122560,
+      "cache_write": 0,
+      "cost_usd": 14.971915599999997,
+      "saved_usd": 7.930022399999998,
+      "cache_capable": true,
+      "cache_breaks": 3
+    },
+    "editor": {
+      "input": 33650079,
+      "output": 659183,
+      "cache_read": 21730944,
+      "cache_write": 0,
+      "cost_usd": 31.7817044,
+      "saved_usd": 40.56648960000001,
+      "cache_capable": true,
+      "cache_breaks": 1
+    },
+    "writer": {
+      "input": 615045190,
+      "output": 12683224,
+      "cache_read": 466220394,
+      "cache_write": 0,
+      "cost_usd": 27.608370303999784,
+      "saved_usd": 31.56167425600029,
+      "cache_capable": true,
+      "cache_breaks": 184
+    }
+  },
+  "per_model": {
+    "deepseek/deepseek-flash": {
+      "input": 154152076,
+      "output": 7417359,
+      "cache_read": 125548544,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": true
+    },
+    "openai/claude-sonnet-4-6": {
+      "input": 967815,
+      "output": 7819,
+      "cache_read": 313395,
+      "cache_write": 0,
+      "cost_usd": 2.1745634999999996,
+      "saved_usd": 0.8461665000000002,
+      "cache_capable": true
+    },
+    "openai/gemini-3.8-flash-n": {
+      "input": 3331886,
+      "output": 68228,
+      "cache_read": 760045,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": true
+    },
+    "openai/gpt-6-luna": {
+      "input": 443351992,
+      "output": 4902524,
+      "cache_read": 332917760,
+      "cache_write": 0,
+      "cost_usd": 16.82386279999997,
+      "saved_usd": 29.96259840000022,
+      "cache_capable": true
+    },
+    "openai/gpt-6.1-sol": {
+      "input": 42925396,
+      "output": 947165,
+      "cache_read": 25524480,
+      "cache_write": 0,
+      "cost_usd": 46.825929999999914,
+      "saved_usd": 48.49651200000002,
+      "cache_capable": true
+    },
+    "openrouter/moonshotai/kimi-k3": {
+      "input": 14992651,
+      "output": 402571,
+      "cache_read": 8009674,
+      "cache_write": 0,
+      "cost_usd": 8.609944003999997,
+      "saved_usd": 0.7529093559999986,
+      "cache_capable": true
+    }
+  },
+  "missing_assistant_usage": 0
+}
