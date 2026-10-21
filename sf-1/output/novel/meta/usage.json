@@ -1,55 +1,55 @@
 {
   "schema": 2,
-  "updated_at": "2026-10-20T17:45:22.2367365-07:00",
+  "updated_at": "2026-10-20T23:50:14.1868357-07:00",
   "overall": {
-    "input": 659721816,
-    "output": 13745666,
-    "cache_read": 493073898,
+    "input": 674007132,
+    "output": 13827687,
+    "cache_read": 504868970,
     "cache_write": 0,
-    "cost_usd": 74.43430030400005,
-    "saved_usd": 80.05818625600008,
+    "cost_usd": 78.50140096400008,
+    "saved_usd": 96.93004929600006,
     "cache_capable": true,
-    "cache_breaks": 188
+    "cache_breaks": 190
   },
   "per_agent": {
     "arbiter": {
-      "input": 25549,
-      "output": 3315,
-      "cache_read": 0,
+      "input": 69070,
+      "output": 6559,
+      "cache_read": 2560,
       "cache_write": 0,
-      "cost_usd": 0.07231,
-      "saved_usd": 0,
+      "cost_usd": 0.18692800000000004,
+      "saved_usd": 0.004864,
       "cache_capable": true
     },
     "architect": {
-      "input": 11000998,
-      "output": 399944,
-      "cache_read": 5122560,
+      "input": 12022091,
+      "output": 406293,
+      "cache_read": 5718272,
       "cache_write": 0,
-      "cost_usd": 14.971915599999997,
-      "saved_usd": 7.930022399999998,
+      "cost_usd": 15.945738799999999,
+      "saved_usd": 9.061875199999998,
       "cache_capable": true,
       "cache_breaks": 3
     },
     "editor": {
-      "input": 33650079,
-      "output": 659183,
-      "cache_read": 21730944,
+      "input": 42538539,
+      "output": 708388,
+      "cache_read": 29867648,
       "cache_write": 0,
-      "cost_usd": 31.7817044,
-      "saved_usd": 40.56648960000001,
+      "cost_usd": 34.59093679999998,
+      "saved_usd": 56.02622720000001,
       "cache_capable": true,
       "cache_breaks": 1
     },
     "writer": {
-      "input": 615045190,
-      "output": 12683224,
-      "cache_read": 466220394,
+      "input": 619377432,
+      "output": 12706447,
+      "cache_read": 469280490,
       "cache_write": 0,
-      "cost_usd": 27.608370303999784,
-      "saved_usd": 31.56167425600029,
+      "cost_usd": 27.777797363999788,
+      "saved_usd": 31.8370828960003,
       "cache_capable": true,
-      "cache_breaks": 184
+      "cache_breaks": 186
     }
   },
   "per_model": {
@@ -81,21 +81,21 @@
       "cache_capable": true
     },
     "openai/gpt-6-luna": {
-      "input": 443351992,
-      "output": 4902524,
-      "cache_read": 332917760,
+      "input": 447684234,
+      "output": 4925747,
+      "cache_read": 335977856,
       "cache_write": 0,
-      "cost_usd": 16.82386279999997,
-      "saved_usd": 29.96259840000022,
+      "cost_usd": 16.993289859999972,
+      "saved_usd": 30.23800704000023,
       "cache_capable": true
     },
     "openai/gpt-6.1-sol": {
-      "input": 42925396,
-      "output": 947165,
-      "cache_read": 25524480,
+      "input": 52878470,
+      "output": 1005963,
+      "cache_read": 34259456,
       "cache_write": 0,
-      "cost_usd": 46.825929999999914,
-      "saved_usd": 48.49651200000002,
+      "cost_usd": 50.72360359999988,
+      "saved_usd": 65.09296640000001,
       "cache_capable": true
     },
     "openrouter/moonshotai/kimi-k3": {

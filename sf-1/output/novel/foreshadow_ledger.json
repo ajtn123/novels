@@ -954,7 +954,7 @@
     "id": "worker_column_registration",
     "description": "枢环库另起一卷把阿栗按「作业者」登记（三样出处限本卷、牌上名与人名分栏、送存人写同船、亲属空着、不代遗属处分）；转来的环上存名卷只有名，谁都动不了",
     "planted_at": 73,
-    "status": "advanced"
+    "status": "planted"
   },
   {
     "id": "asset_lane_plan_third_roll",
