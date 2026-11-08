@@ -1,0 +1,15 @@
+{
+  "started_at": "2026-11-07T20:48:13-08:00",
+  "provider": "proxy",
+  "style": "fantasy",
+  "model": "gemini-3.8-flash-high",
+  "planning_tier": "short",
+  "start_prompt": "写一个短篇小说集，每篇以一种植物为主题，设定在奇幻世界，共24篇。",
+  "plan_start": {
+    "raw_prompt": "写一个短篇小说集，每篇以一种植物为主题，设定在奇幻世界，共24篇。",
+    "planner": "architect_short",
+    "planner_task": "创作一部奇幻风格的短篇小说集，共收录24篇独立或存在暗线交织的短篇故事。核心设定与要求如下：\n1. 主题结构：全书共24篇，每一篇均以一种具有奇幻特质的植物为核心意象与故事主题（可以是现实植物的奇幻化演绎，也可以是原创的奇幻异植）。\n2. 世界观与风格：设定在一个自洽、富有想象力与神秘感的奇幻世界（fantasy），探索人与异植、自然规律、魔力回响之间的关系，呈现多样的情绪基调（如治愈、悬疑、悲壮、诗意等）。\n3. 篇目编排：24个故事需各有焦点与特色人物，同时建议设计一条若隐若现的暗线（如植物学家的旅途笔记、异端标本馆的记录等）以增强整部短篇集的整体感。\n\n用 save_foundation 逐项落盘前提/大纲/角色/世界规则，全部齐全后重新调用 novel_context 并用 audit_foundation 审查跨文件语义一致性；仅 audit_foundation 返回 foundation_ready=true 后结束（不要调用 complete_book——那是全书章节写完后的完结宣告）。",
+    "decision_id": "dec-cba4d6bb0032"
+  },
+  "advance_mode": "auto"
+}

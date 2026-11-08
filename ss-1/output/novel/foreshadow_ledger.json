@@ -1,0 +1,16 @@
+[
+  {
+    "id": "wither_tide_echo_01",
+    "description": "啼霜木标本内部凝固的暗红色干涸蛛网，暗示南方大陆腹地的地脉枯萎潮正在暗中扩散。",
+    "planted_at": 1,
+    "status": "resolved",
+    "resolved_at": 24
+  },
+  {
+    "id": "royal_nursery_wither_02",
+    "description": "王都皇室苗圃的枯母草变异抽芽，摄政王借其剧毒弑君，证实地脉枯萎潮已深入帝国权力中心。",
+    "planted_at": 2,
+    "status": "resolved",
+    "resolved_at": 24
+  }
+]

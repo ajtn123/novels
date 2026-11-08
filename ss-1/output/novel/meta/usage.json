@@ -1,0 +1,63 @@
+{
+  "schema": 2,
+  "updated_at": "2026-11-07T22:09:39.6092841-08:00",
+  "overall": {
+    "input": 4623859,
+    "output": 263912,
+    "cache_read": 2423943,
+    "cache_write": 0,
+    "cost_usd": 0,
+    "saved_usd": 0,
+    "cache_capable": true
+  },
+  "per_agent": {
+    "arbiter": {
+      "input": 421,
+      "output": 611,
+      "cache_read": 0,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": false
+    },
+    "architect": {
+      "input": 122998,
+      "output": 13839,
+      "cache_read": 48823,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": true
+    },
+    "editor": {
+      "input": 376736,
+      "output": 17690,
+      "cache_read": 101738,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": true
+    },
+    "writer": {
+      "input": 4123704,
+      "output": 231772,
+      "cache_read": 2273382,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": true
+    }
+  },
+  "per_model": {
+    "openai/gemini-3.8-flash-n": {
+      "input": 4623859,
+      "output": 263912,
+      "cache_read": 2423943,
+      "cache_write": 0,
+      "cost_usd": 0,
+      "saved_usd": 0,
+      "cache_capable": true
+    }
+  },
+  "missing_assistant_usage": 0
+}
