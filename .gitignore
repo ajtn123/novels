@@ -1,0 +1,16 @@
+**/node_modules
+
+docs/.vuepress/.cache
+docs/.vuepress/.temp
+docs/.vuepress/dist
+
+docs/sf-1
+docs/ss-1
+novels-src
+
+# Novels live on main branch
+sf-1/
+ss-1/
+LICENSE
+
+*.log
