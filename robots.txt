@@ -1,0 +1,3 @@
+Sitemap: https://ajtn123.github.io/novels/sitemap.xml
+User-agent:*
+Disallow:
