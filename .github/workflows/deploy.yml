@@ -1,0 +1,38 @@
+name: 部署 Github Pages
+
+on:
+  push:
+    branches: [vuepress, main]
+  workflow_dispatch:
+
+jobs:
+  deploy-gh-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout vuepress source
+        uses: actions/checkout@v4
+        with:
+          ref: vuepress
+
+      - name: Checkout novel source
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: docs/main
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+          run_install: true
+
+      - name: 构建
+        run: pnpm run docs:build
+
+      - name: 推送
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vuepress/dist
+          force_orphan: true
