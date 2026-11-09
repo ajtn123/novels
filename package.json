@@ -6,14 +6,12 @@
   "author": "ajtn123 <Ajitani-Hifumi@outlook.com>",
   "license": "CC0-1.0",
   "scripts": {
-    "predocs:build": "node scripts/link.mjs",
-    "predocs:dev": "node scripts/link.mjs",
     "docs:build": "vuepress build docs",
     "docs:dev": "vuepress dev docs"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/bundler-vite": "2.0.0-rc.31",
     "typescript": "^6.0.3",
-    "vuepress-theme-plume": "1.0.0-rc.204"
+    "vuepress-theme-plume": "1.0.0-rc.215"
   }
 }

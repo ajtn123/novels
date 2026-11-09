@@ -11,16 +11,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout vuepress src
+      - name: Checkout vuepress source
         uses: actions/checkout@v4
         with:
           ref: vuepress
 
-      - name: Checkout novel source (main)
+      - name: Checkout novel source
         uses: actions/checkout@v4
         with:
           ref: main
-          path: novels-src
+          path: docs/main
 
       - uses: pnpm/action-setup@v4
         with:
